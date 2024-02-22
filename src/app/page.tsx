@@ -1,12 +1,17 @@
+import { Description } from "app/components/home/Description";
+import { Hero } from "app/components/home/Hero";
+import { MainProducts } from "app/components/home/MainProducts";
 
-import Image from "next/image";
-import styles from "./page.module.css";
 
 export default function Home() {
-  console.log('Hola')
+  
   return (
-    <main className={styles.main}>
-      <h1>Hola</h1>
+    <main>
+
+      <Hero/>
+      <MainProducts/>
+      <Description/>
+      
     </main>
   );
 }
