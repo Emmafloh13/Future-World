@@ -1,7 +1,8 @@
 export const Description = ()=>{
     return (
         <section>
-            <h1>Descripción</h1>
+            <img src="/img/imagen.png" alt="photo" />
+            <h2>Aguacatito </h2>
         </section>
     )
 }

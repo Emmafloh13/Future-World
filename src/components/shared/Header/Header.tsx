@@ -6,12 +6,12 @@ export const Header = () =>{
         <header>
           <nav>
             <ul>
-              <Link href="/">
+            <Link href="/" className="link">
               <li>Home</li>
               </Link>
-              <Link href="/store">
-              <li>Store</li>
-              </Link>
+              <Link href="/store" className="link">
+                <li>Store</li>
+                </Link>
             </ul>
           </nav>
         </header>
