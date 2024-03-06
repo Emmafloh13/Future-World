@@ -9,6 +9,7 @@ const getProducts = async () =>{
         headers: new Headers ({
             'X-Shopify-Access-Token': process.env.SHOPIFY_API_KEY || "",
         })
+
     })
     const { products } = await response.json()
     return products
@@ -17,8 +18,9 @@ const getProducts = async () =>{
   }
 }
 
-export const MainProducts = async ()=>{
-   const products = await getProducts()
+export const MainProducts = async() => {
+    const products = await getProducts();
+  
    return (
     <section className={styles.MainProducts}>
         <h3>✨ New products released!</h3>
@@ -34,5 +36,5 @@ export const MainProducts = async ()=>{
                     })}
                     </div>
                     </section>
-                    )
-                }
+   )
+}
