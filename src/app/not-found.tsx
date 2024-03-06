@@ -1,0 +1,25 @@
+import Image from "next/image";
+import Link from "next/link";
+import styles from 'app/sass/not-found.module.sass'
+
+export default function NotFound(){
+    return(
+        <main className={styles.NotFound}>
+            <h1 className={styles.NotFound__title}>404</h1>
+            <Image 
+            src="/img/404.png"
+            alt="404"
+            width={300}
+            height={300}
+            />
+
+            <h2 className={styles.NotFound__subtitle}>
+              Al parecer no se pudo cargar nada  
+            </h2>
+            <p className={styles.NotFound__description}>Abierto las 24 horas del día</p>
+            <Link className={styles.NotFound__link} href="/store">
+                ¡Vamos de compras!
+            </Link>
+        </main>
+    );
+}
