@@ -1,12 +1,15 @@
+// import styles from './Hero.module.css'
 import styles from './Hero.module.sass'
 
+export const Hero = () =>{
 
-export const Hero = ()=>{
+    return(
+<section className={styles.Hero}>
+    <h1>Future world</h1>
+    <h2>Empowering your tommorrow</h2>
 
-    return (
-        <section className={styles.Hero}>
-            <h1>Future world</h1>
-            <h2>Empowering your tommorrow</h2>
-        </section>
+</section>
+
+
     )
 }

@@ -1,4 +1,6 @@
-export const env ={
-    SHOPIFY_TOKEN: process.env.SHOPIFY_TOKEN || "", 
-    SHOPIFY_HOSTNAME: process.env.SHOPIFY_HOSTNAME || "",
+export const env = { 
+
+    SHOPIFY_API_KEY:process.env.SHOPIFY_API_KEY || "",
+    SHOPIFY_HOSTNAME:process.env.SHOPIFY_HOSTNAME ||""
+
 }

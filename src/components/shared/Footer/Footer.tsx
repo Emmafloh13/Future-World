@@ -1,7 +1,11 @@
 export const Footer = () =>{
+
+
     return(
-        <footer>
-            <p>Future World</p>
-        </footer>
+
+<footer>
+    <p>Future world</p>
+</footer>
+
     )
 }

@@ -1,4 +1,12 @@
 export default function Page(){
-    return
-    <h1>Test</h1>
+
+
+return(
+
+<div><h1>test</h1></div>
+
+)
+
+
+
 }
