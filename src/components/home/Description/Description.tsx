@@ -35,7 +35,7 @@ export const Descripcion = () => {
         />
       </div>
     </button>
-      <div className={styles.Descripcion__text}>
+      <div className={styles.Description__text}>
       <h2>Aguacatito </h2>
       <p>Criatura alienígena emergiendo de un pequeño "Aguacatito" confundido y asustado. </p>
       </div>
