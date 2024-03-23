@@ -35,7 +35,11 @@ export const getProducts = async (id?: string): Promise<ProductType[]> => {
       headers: new Headers({
         'X-shopify-Access-Token': env.SHOPIFY_API_KEY
       }),
-      cache: 'no-cache'
+      cache: 'force-cache',
+      next:{
+        tags: ['main-products']
+      }
+      //cache: 'no-cache'
       // next:{
       //   revalidate:10
       // }
